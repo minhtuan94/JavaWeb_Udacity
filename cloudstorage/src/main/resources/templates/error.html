@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="all" th:href="@{/css/bootstrap.min.css}">
+    <title>Invalid Page</title>
+</head>
+<body>
+<style>
+    .container{
+        margin-top: 20%;
+        text-align: center;
+    }
+</style>
+    <div class="container">
+        <h1>Something went wrong! </h1>
+        <h2>Click at link below to go back</h2>
+        <a th:href="@{/login}">Go Home</a>
+    </div>
+</body>
+</html>
